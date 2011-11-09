@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B356C469146A6A55003D7FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B356C468146A6A55003D7FF7 /* UIKit.framework */; };
+		B356C46B146A6A55003D7FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B356C46A146A6A55003D7FF7 /* Foundation.framework */; };
+		B356C46D146A6A55003D7FF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B356C46C146A6A55003D7FF7 /* CoreGraphics.framework */; };
+		B356C473146A6A55003D7FF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B356C471146A6A55003D7FF7 /* InfoPlist.strings */; };
+		B356C475146A6A55003D7FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B356C474146A6A55003D7FF7 /* main.m */; };
+		B356C479146A6A55003D7FF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B356C478146A6A55003D7FF7 /* AppDelegate.m */; };
+		B356C47C146A6A55003D7FF7 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B356C47B146A6A55003D7FF7 /* MasterViewController.m */; };
+		B356C47F146A6A55003D7FF7 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B356C47E146A6A55003D7FF7 /* DetailViewController.m */; };
+		B356C482146A6A55003D7FF7 /* MasterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B356C480146A6A55003D7FF7 /* MasterViewController.xib */; };
+		B356C485146A6A55003D7FF7 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B356C483146A6A55003D7FF7 /* DetailViewController.xib */; };
+		B356C48D146A6A55003D7FF7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B356C48C146A6A55003D7FF7 /* SenTestingKit.framework */; };
+		B356C48E146A6A55003D7FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B356C468146A6A55003D7FF7 /* UIKit.framework */; };
+		B356C48F146A6A55003D7FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B356C46A146A6A55003D7FF7 /* Foundation.framework */; };
+		B356C497146A6A55003D7FF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B356C495146A6A55003D7FF7 /* InfoPlist.strings */; };
+		B356C49A146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B356C499146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.m */; };
+		B356C4A5146A6AB3003D7FF7 /* hbn_top_bg_long.png in Resources */ = {isa = PBXBuildFile; fileRef = B356C4A3146A6AB3003D7FF7 /* hbn_top_bg_long.png */; };
+		B356C4A6146A6AB3003D7FF7 /* hbn_top_bg_long@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B356C4A4146A6AB3003D7FF7 /* hbn_top_bg_long@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B356C490146A6A55003D7FF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B356C45B146A6A55003D7FF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B356C463146A6A55003D7FF7;
+			remoteInfo = Saltfactory_iOS_Tutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B356C464146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Saltfactory_iOS_Tutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B356C468146A6A55003D7FF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B356C46A146A6A55003D7FF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B356C46C146A6A55003D7FF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B356C470146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Saltfactory_iOS_Tutorial-Info.plist"; sourceTree = "<group>"; };
+		B356C472146A6A55003D7FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B356C474146A6A55003D7FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B356C476146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Saltfactory_iOS_Tutorial-Prefix.pch"; sourceTree = "<group>"; };
+		B356C477146A6A55003D7FF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B356C478146A6A55003D7FF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B356C47A146A6A55003D7FF7 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		B356C47B146A6A55003D7FF7 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		B356C47D146A6A55003D7FF7 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B356C47E146A6A55003D7FF7 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B356C481146A6A55003D7FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MasterViewController.xib; sourceTree = "<group>"; };
+		B356C484146A6A55003D7FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController.xib; sourceTree = "<group>"; };
+		B356C48B146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Saltfactory_iOS_TutorialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B356C48C146A6A55003D7FF7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B356C494146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Saltfactory_iOS_TutorialTests-Info.plist"; sourceTree = "<group>"; };
+		B356C496146A6A55003D7FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B356C498146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Saltfactory_iOS_TutorialTests.h; sourceTree = "<group>"; };
+		B356C499146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Saltfactory_iOS_TutorialTests.m; sourceTree = "<group>"; };
+		B356C4A3146A6AB3003D7FF7 /* hbn_top_bg_long.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hbn_top_bg_long.png; sourceTree = "<group>"; };
+		B356C4A4146A6AB3003D7FF7 /* hbn_top_bg_long@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hbn_top_bg_long@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B356C461146A6A55003D7FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356C469146A6A55003D7FF7 /* UIKit.framework in Frameworks */,
+				B356C46B146A6A55003D7FF7 /* Foundation.framework in Frameworks */,
+				B356C46D146A6A55003D7FF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B356C487146A6A55003D7FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356C48D146A6A55003D7FF7 /* SenTestingKit.framework in Frameworks */,
+				B356C48E146A6A55003D7FF7 /* UIKit.framework in Frameworks */,
+				B356C48F146A6A55003D7FF7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B356C459146A6A55003D7FF7 = {
+			isa = PBXGroup;
+			children = (
+				B356C46E146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial */,
+				B356C492146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests */,
+				B356C467146A6A55003D7FF7 /* Frameworks */,
+				B356C465146A6A55003D7FF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B356C465146A6A55003D7FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B356C464146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial.app */,
+				B356C48B146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B356C467146A6A55003D7FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B356C468146A6A55003D7FF7 /* UIKit.framework */,
+				B356C46A146A6A55003D7FF7 /* Foundation.framework */,
+				B356C46C146A6A55003D7FF7 /* CoreGraphics.framework */,
+				B356C48C146A6A55003D7FF7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B356C46E146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				B356C4A3146A6AB3003D7FF7 /* hbn_top_bg_long.png */,
+				B356C4A4146A6AB3003D7FF7 /* hbn_top_bg_long@2x.png */,
+				B356C477146A6A55003D7FF7 /* AppDelegate.h */,
+				B356C478146A6A55003D7FF7 /* AppDelegate.m */,
+				B356C47A146A6A55003D7FF7 /* MasterViewController.h */,
+				B356C47B146A6A55003D7FF7 /* MasterViewController.m */,
+				B356C47D146A6A55003D7FF7 /* DetailViewController.h */,
+				B356C47E146A6A55003D7FF7 /* DetailViewController.m */,
+				B356C480146A6A55003D7FF7 /* MasterViewController.xib */,
+				B356C483146A6A55003D7FF7 /* DetailViewController.xib */,
+				B356C46F146A6A55003D7FF7 /* Supporting Files */,
+			);
+			path = Saltfactory_iOS_Tutorial;
+			sourceTree = "<group>";
+		};
+		B356C46F146A6A55003D7FF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B356C470146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial-Info.plist */,
+				B356C471146A6A55003D7FF7 /* InfoPlist.strings */,
+				B356C474146A6A55003D7FF7 /* main.m */,
+				B356C476146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B356C492146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				B356C498146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.h */,
+				B356C499146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.m */,
+				B356C493146A6A55003D7FF7 /* Supporting Files */,
+			);
+			path = Saltfactory_iOS_TutorialTests;
+			sourceTree = "<group>";
+		};
+		B356C493146A6A55003D7FF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B356C494146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests-Info.plist */,
+				B356C495146A6A55003D7FF7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B356C463146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B356C49D146A6A55003D7FF7 /* Build configuration list for PBXNativeTarget "Saltfactory_iOS_Tutorial" */;
+			buildPhases = (
+				B356C460146A6A55003D7FF7 /* Sources */,
+				B356C461146A6A55003D7FF7 /* Frameworks */,
+				B356C462146A6A55003D7FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Saltfactory_iOS_Tutorial;
+			productName = Saltfactory_iOS_Tutorial;
+			productReference = B356C464146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B356C48A146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B356C4A0146A6A55003D7FF7 /* Build configuration list for PBXNativeTarget "Saltfactory_iOS_TutorialTests" */;
+			buildPhases = (
+				B356C486146A6A55003D7FF7 /* Sources */,
+				B356C487146A6A55003D7FF7 /* Frameworks */,
+				B356C488146A6A55003D7FF7 /* Resources */,
+				B356C489146A6A55003D7FF7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B356C491146A6A55003D7FF7 /* PBXTargetDependency */,
+			);
+			name = Saltfactory_iOS_TutorialTests;
+			productName = Saltfactory_iOS_TutorialTests;
+			productReference = B356C48B146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B356C45B146A6A55003D7FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "saltfactory@gmail.com";
+			};
+			buildConfigurationList = B356C45E146A6A55003D7FF7 /* Build configuration list for PBXProject "Saltfactory_iOS_Tutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B356C459146A6A55003D7FF7;
+			productRefGroup = B356C465146A6A55003D7FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B356C463146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial */,
+				B356C48A146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B356C462146A6A55003D7FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356C473146A6A55003D7FF7 /* InfoPlist.strings in Resources */,
+				B356C482146A6A55003D7FF7 /* MasterViewController.xib in Resources */,
+				B356C485146A6A55003D7FF7 /* DetailViewController.xib in Resources */,
+				B356C4A5146A6AB3003D7FF7 /* hbn_top_bg_long.png in Resources */,
+				B356C4A6146A6AB3003D7FF7 /* hbn_top_bg_long@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B356C488146A6A55003D7FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356C497146A6A55003D7FF7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B356C489146A6A55003D7FF7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B356C460146A6A55003D7FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356C475146A6A55003D7FF7 /* main.m in Sources */,
+				B356C479146A6A55003D7FF7 /* AppDelegate.m in Sources */,
+				B356C47C146A6A55003D7FF7 /* MasterViewController.m in Sources */,
+				B356C47F146A6A55003D7FF7 /* DetailViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B356C486146A6A55003D7FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356C49A146A6A55003D7FF7 /* Saltfactory_iOS_TutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B356C491146A6A55003D7FF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B356C463146A6A55003D7FF7 /* Saltfactory_iOS_Tutorial */;
+			targetProxy = B356C490146A6A55003D7FF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B356C471146A6A55003D7FF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B356C472146A6A55003D7FF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B356C480146A6A55003D7FF7 /* MasterViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B356C481146A6A55003D7FF7 /* en */,
+			);
+			name = MasterViewController.xib;
+			sourceTree = "<group>";
+		};
+		B356C483146A6A55003D7FF7 /* DetailViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B356C484146A6A55003D7FF7 /* en */,
+			);
+			name = DetailViewController.xib;
+			sourceTree = "<group>";
+		};
+		B356C495146A6A55003D7FF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B356C496146A6A55003D7FF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B356C49B146A6A55003D7FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B356C49C146A6A55003D7FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B356C49E146A6A55003D7FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saltfactory_iOS_Tutorial/Saltfactory_iOS_Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Saltfactory_iOS_Tutorial/Saltfactory_iOS_Tutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B356C49F146A6A55003D7FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saltfactory_iOS_Tutorial/Saltfactory_iOS_Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Saltfactory_iOS_Tutorial/Saltfactory_iOS_Tutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B356C4A1146A6A55003D7FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saltfactory_iOS_Tutorial.app/Saltfactory_iOS_Tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saltfactory_iOS_Tutorial/Saltfactory_iOS_Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Saltfactory_iOS_TutorialTests/Saltfactory_iOS_TutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B356C4A2146A6A55003D7FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Saltfactory_iOS_Tutorial.app/Saltfactory_iOS_Tutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Saltfactory_iOS_Tutorial/Saltfactory_iOS_Tutorial-Prefix.pch";
+				INFOPLIST_FILE = "Saltfactory_iOS_TutorialTests/Saltfactory_iOS_TutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B356C45E146A6A55003D7FF7 /* Build configuration list for PBXProject "Saltfactory_iOS_Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B356C49B146A6A55003D7FF7 /* Debug */,
+				B356C49C146A6A55003D7FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B356C49D146A6A55003D7FF7 /* Build configuration list for PBXNativeTarget "Saltfactory_iOS_Tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B356C49E146A6A55003D7FF7 /* Debug */,
+				B356C49F146A6A55003D7FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B356C4A0146A6A55003D7FF7 /* Build configuration list for PBXNativeTarget "Saltfactory_iOS_TutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B356C4A1146A6A55003D7FF7 /* Debug */,
+				B356C4A2146A6A55003D7FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B356C45B146A6A55003D7FF7 /* Project object */;
+}

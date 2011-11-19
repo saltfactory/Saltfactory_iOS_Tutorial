@@ -23,6 +23,8 @@
 		B38CF44914762A2D006E3CE4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B38CF44714762A2D006E3CE4 /* InfoPlist.strings */; };
 		B38CF44C14762A2D006E3CE4 /* Saltfactory_iOS_TutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B38CF44B14762A2D006E3CE4 /* Saltfactory_iOS_TutorialTests.m */; };
 		B38CF45614762AB8006E3CE4 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CF45514762AB8006E3CE4 /* Twitter.framework */; };
+		B38CF4581476584F006E3CE4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CF4571476584E006E3CE4 /* Accounts.framework */; };
+		B38CF4591476586F006E3CE4 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B38CF4571476584E006E3CE4 /* Accounts.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,7 @@
 		B38CF44A14762A2D006E3CE4 /* Saltfactory_iOS_TutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Saltfactory_iOS_TutorialTests.h; sourceTree = "<group>"; };
 		B38CF44B14762A2D006E3CE4 /* Saltfactory_iOS_TutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Saltfactory_iOS_TutorialTests.m; sourceTree = "<group>"; };
 		B38CF45514762AB8006E3CE4 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		B38CF4571476584E006E3CE4 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38CF4581476584F006E3CE4 /* Accounts.framework in Frameworks */,
 				B38CF45614762AB8006E3CE4 /* Twitter.framework in Frameworks */,
 				B38CF41B14762A2C006E3CE4 /* UIKit.framework in Frameworks */,
 				B38CF41D14762A2C006E3CE4 /* Foundation.framework in Frameworks */,
@@ -77,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B38CF4591476586F006E3CE4 /* Accounts.framework in Frameworks */,
 				B38CF43F14762A2D006E3CE4 /* SenTestingKit.framework in Frameworks */,
 				B38CF44014762A2D006E3CE4 /* UIKit.framework in Frameworks */,
 				B38CF44114762A2D006E3CE4 /* Foundation.framework in Frameworks */,
@@ -89,6 +94,7 @@
 		B38CF40B14762A2C006E3CE4 = {
 			isa = PBXGroup;
 			children = (
+				B38CF4571476584E006E3CE4 /* Accounts.framework */,
 				B38CF45514762AB8006E3CE4 /* Twitter.framework */,
 				B38CF42014762A2C006E3CE4 /* Saltfactory_iOS_Tutorial */,
 				B38CF44414762A2D006E3CE4 /* Saltfactory_iOS_TutorialTests */,

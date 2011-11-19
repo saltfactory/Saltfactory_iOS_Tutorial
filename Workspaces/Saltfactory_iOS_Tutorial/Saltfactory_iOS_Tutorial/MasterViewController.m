@@ -8,7 +8,11 @@
 
 #import "MasterViewController.h"
 #import <Twitter/Twitter.h>
+#import <Accounts/Accounts.h>
 #import "DetailViewController.h"
+
+#define kTweetSearchAlertViewTag 1
+#define kTweetUpdateAlertViewTag 2
 
 @implementation MasterViewController
 
@@ -52,16 +56,60 @@
             NSLog(@"Twitter Error : %@", [error localizedDescription]);
         }
     }];
+}
+
+- (void) fetchTimeline
+{
     
+}
+
+- (void) updateTweetWithText:(NSString *)text
+{
+    ACAccountStore *accountStore = [[ACAccountStore alloc] init];
+    ACAccountType *accountType = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
+    
+    [accountStore requestAccessToAccountsWithType:accountType withCompletionHandler:^(BOOL granted, NSError *error){        
+        if (granted) {
+            NSArray *accounts = [accountStore accountsWithAccountType:accountType];  
+            ACAccount *account = [accounts objectAtIndex:0];
+            
+            NSString *urlString = @"http://api.twitter.com/1/statuses/update.json";
+            
+            TWRequest *request = [[TWRequest alloc] initWithURL:[NSURL URLWithString:urlString] parameters:[NSDictionary dictionaryWithObject:text forKey:@"status"] requestMethod:TWRequestMethodPOST];
+            [request setAccount:account];
+            
+            [request performRequestWithHandler:^(NSData *responseData, NSHTTPURLResponse *urlResponse, NSError *error){
+                if (urlResponse.statusCode == 200) {
+                    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"알림" message:@"정상적으로 메세지가 업데이트 되었습니다." delegate:self cancelButtonTitle:@"취소" otherButtonTitles:@"확인", nil];
+                    [alertView show];
+                } else {
+                    NSLog(@"Twitter Error : %@", [error localizedDescription]);
+                }
+            }];
+        }
+    }];
 }
 
 - (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)buttonIndex
 {
-    UITextField *textField = [alertView textFieldAtIndex:0];
-    if (buttonIndex == 1) {
-        [self fetchTimelineWithText:textField.text];
+    switch (alertView.tag) {
+        case kTweetSearchAlertViewTag:
+            if (buttonIndex == 1) {
+                [self fetchTimelineWithText:[[alertView textFieldAtIndex:0] text]];
+            }
+            break;
+        case kTweetUpdateAlertViewTag:
+            if (buttonIndex == 1) {
+                [self updateTweetWithText:[[alertView textFieldAtIndex:0] text]];
+            }            
+            break;
+        default:
+            break;
     }
+    
 }
+
+
 
 - (IBAction)onSearchButton:(id)sender
 {
@@ -71,9 +119,39 @@
                                             cancelButtonTitle:@"Cancel" 
                                             otherButtonTitles:@"Search", nil];    
     [alertView setAlertViewStyle:UIAlertViewStylePlainTextInput];
+    alertView.tag = kTweetSearchAlertViewTag;
     [alertView show];
 }
 
+
+- (void)fetchTwitterAccount
+{
+    ACAccountStore *accountStore = [[ACAccountStore alloc] init];
+    ACAccountType *accountType = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
+    
+    [accountStore requestAccessToAccountsWithType:accountType withCompletionHandler:^(BOOL granted, NSError *error){        
+        if (granted) {
+            NSArray *accounts = [accountStore accountsWithAccountType:accountType];  
+
+            for (ACAccount *account in accounts) {
+                NSLog(@"twitter account : %@, %@", account.username, account.description);
+            }            
+        }
+    }];
+}
+
+- (IBAction)onComposeButton:(id)sender
+{
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Twitter Message" 
+                                                        message:nil 
+                                                       delegate:self 
+                                              cancelButtonTitle:@"Cancel" 
+                                              otherButtonTitles:@"Update", nil];    
+    alertView.tag = kTweetUpdateAlertViewTag;
+    [alertView setAlertViewStyle:UIAlertViewStylePlainTextInput];
+    [alertView show];
+
+}
 
 #pragma mark - View lifecycle
 
@@ -81,11 +159,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self fetchTimelineWithText:@"#iOS"];
-    
+//    [self fetchTimelineWithText:@"#iOS"];
+    [self fetchTwitterAccount];
     UIBarButtonItem *searchButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSearch 
                                                                                   target:self action:@selector(onSearchButton:)];
     self.navigationItem.leftBarButtonItem = searchButton;
+    
+    UIBarButtonItem *composeButton = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCompose target:self action:@selector(onComposeButton:)];
+    
+    self.navigationItem.rightBarButtonItem = composeButton;
     
 }
 

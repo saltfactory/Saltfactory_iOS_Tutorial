@@ -7,6 +7,8 @@
 //
 
 #import "Saltfactory_iOS_TutorialTests.h"
+#import <Twitter/Twitter.h>
+#import <Accounts/Accounts.h>
 
 @implementation Saltfactory_iOS_TutorialTests
 
@@ -26,7 +28,19 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in Saltfactory_iOS_TutorialTests");
+//    STFail(@"Unit tests are not implemented yet in Saltfactory_iOS_TutorialTests");
+
+    ACAccountStore *accountStore = [[ACAccountStore alloc] init];
+    ACAccountType *accountType = [accountStore accountTypeWithAccountTypeIdentifier:ACAccountTypeIdentifierTwitter];
+    
+    [accountStore requestAccessToAccountsWithType:accountType withCompletionHandler:^(BOOL granted, NSError *error){
+        NSArray *accounts = [accountStore accountsWithAccountType:accountType];  
+            
+        for (ACAccount *account in accounts) {
+            NSLog(@"twitter account : %@", account.username);
+        }
+    }];
+    
 }
 
 @end

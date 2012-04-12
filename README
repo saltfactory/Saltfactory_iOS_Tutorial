@@ -1,0 +1,27 @@
+1. 소개
+
+Saltfactory_iOS_Tutorial은 saltfactory의 iOS 개발에 관련된 예제 자료들입니다.
+saltfactory는예제 코드들을 http://blog.saltfactory.net과 http://blog.hibrainapps.net을 통해서 공개합니다.
+saltfactory는 하이브레인넷(http://www.hibrain.net) 부설 연구소 (http://blog.hibrainapps.net)에 연구활동을 하고 있는
+개발 연구원 입니다.
+
+2. 제한 사항
+
+이 튜토리얼에 사용된 모든 소스 코드는 상업적 용도로 사용할 수 없습니다.
+이 튜토리엉ㄹ에 사용된 참조된 소스코드는 원 저자의 라이센스가 적용됩니다. (GPL, LGPL, BSD, Apache, MIT, GNU, 등)
+또한, 이 소스 코드는 교육용 목적으로 만들었습니다. saltfactory@gmail.com 의 동의 없이 상용 목적으로 코드를 재사용 및 변경을 할 수 없습니다.
+
+3. 주의 사항
+
+소스코드를 블로그나 개인용 웹 사이트에 공개하여 공유할 수 있지만 반드시 저자와 링크를 추가하셔야 합니다.
+저자 : saltfactory@gmail.com, @saltfactory (http://twitter.com/saltfactory)
+링크 : http://blog.saltfactory.net
+
+4. 저작권 사항 
+1) 소스코드의 1차 저작권은 참조된 소스코드에 명시된 라이센스를 따릅니다.
+2) 소스코드의 2차 저작권은 CCL(Creative Common Licenses) ( http://creativecommons.org/licenses/by-nc-sa/2.0/kr/ ) 아래 보호됩니다. 
+
+5. 연락처
+
+1) 메일 : saltfactory@gmail.com
+2) 트위터 : @saltfactory( http://twitter.com/saltfactory)

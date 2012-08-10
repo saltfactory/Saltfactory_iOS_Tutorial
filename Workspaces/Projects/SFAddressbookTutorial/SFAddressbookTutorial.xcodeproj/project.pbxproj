@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36B29BD15D4DF4B006719DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29BC15D4DF4B006719DC /* UIKit.framework */; };
+		B36B29BF15D4DF4B006719DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29BE15D4DF4B006719DC /* Foundation.framework */; };
+		B36B29C115D4DF4B006719DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29C015D4DF4B006719DC /* CoreGraphics.framework */; };
+		B36B29C715D4DF4B006719DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36B29C515D4DF4B006719DC /* InfoPlist.strings */; };
+		B36B29C915D4DF4B006719DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B29C815D4DF4B006719DC /* main.m */; };
+		B36B29CD15D4DF4B006719DC /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B29CC15D4DF4B006719DC /* SFAppDelegate.m */; };
+		B36B29D515D4DF4B006719DC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29D415D4DF4B006719DC /* SenTestingKit.framework */; };
+		B36B29D615D4DF4B006719DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29BC15D4DF4B006719DC /* UIKit.framework */; };
+		B36B29D715D4DF4B006719DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29BE15D4DF4B006719DC /* Foundation.framework */; };
+		B36B29DF15D4DF4B006719DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36B29DD15D4DF4B006719DC /* InfoPlist.strings */; };
+		B36B29E215D4DF4B006719DC /* SFAddressbookTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B29E115D4DF4B006719DC /* SFAddressbookTutorialTests.m */; };
+		B36B29ED15D4E046006719DC /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29EB15D4E046006719DC /* AddressBook.framework */; };
+		B36B29EE15D4E046006719DC /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29EC15D4E046006719DC /* AddressBookUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36B29D815D4DF4B006719DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36B29AF15D4DF4B006719DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36B29B715D4DF4B006719DC;
+			remoteInfo = SFAddressbookTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B36B29B815D4DF4B006719DC /* SFAddressbookTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFAddressbookTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36B29BC15D4DF4B006719DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B36B29BE15D4DF4B006719DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B36B29C015D4DF4B006719DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B36B29C415D4DF4B006719DC /* SFAddressbookTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFAddressbookTutorial-Info.plist"; sourceTree = "<group>"; };
+		B36B29C615D4DF4B006719DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B36B29C815D4DF4B006719DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36B29CA15D4DF4B006719DC /* SFAddressbookTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFAddressbookTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		B36B29CB15D4DF4B006719DC /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		B36B29CC15D4DF4B006719DC /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		B36B29D315D4DF4B006719DC /* SFAddressbookTutorialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFAddressbookTutorialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36B29D415D4DF4B006719DC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B36B29DC15D4DF4B006719DC /* SFAddressbookTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFAddressbookTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		B36B29DE15D4DF4B006719DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B36B29E015D4DF4B006719DC /* SFAddressbookTutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAddressbookTutorialTests.h; sourceTree = "<group>"; };
+		B36B29E115D4DF4B006719DC /* SFAddressbookTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAddressbookTutorialTests.m; sourceTree = "<group>"; };
+		B36B29EB15D4E046006719DC /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		B36B29EC15D4E046006719DC /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36B29B515D4DF4B006719DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B29BD15D4DF4B006719DC /* UIKit.framework in Frameworks */,
+				B36B29BF15D4DF4B006719DC /* Foundation.framework in Frameworks */,
+				B36B29C115D4DF4B006719DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36B29CF15D4DF4B006719DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B29ED15D4E046006719DC /* AddressBook.framework in Frameworks */,
+				B36B29EE15D4E046006719DC /* AddressBookUI.framework in Frameworks */,
+				B36B29D515D4DF4B006719DC /* SenTestingKit.framework in Frameworks */,
+				B36B29D615D4DF4B006719DC /* UIKit.framework in Frameworks */,
+				B36B29D715D4DF4B006719DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36B29AD15D4DF4B006719DC = {
+			isa = PBXGroup;
+			children = (
+				B36B29EB15D4E046006719DC /* AddressBook.framework */,
+				B36B29EC15D4E046006719DC /* AddressBookUI.framework */,
+				B36B29C215D4DF4B006719DC /* SFAddressbookTutorial */,
+				B36B29DA15D4DF4B006719DC /* SFAddressbookTutorialTests */,
+				B36B29BB15D4DF4B006719DC /* Frameworks */,
+				B36B29B915D4DF4B006719DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36B29B915D4DF4B006719DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36B29B815D4DF4B006719DC /* SFAddressbookTutorial.app */,
+				B36B29D315D4DF4B006719DC /* SFAddressbookTutorialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36B29BB15D4DF4B006719DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36B29BC15D4DF4B006719DC /* UIKit.framework */,
+				B36B29BE15D4DF4B006719DC /* Foundation.framework */,
+				B36B29C015D4DF4B006719DC /* CoreGraphics.framework */,
+				B36B29D415D4DF4B006719DC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B36B29C215D4DF4B006719DC /* SFAddressbookTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				B36B29CB15D4DF4B006719DC /* SFAppDelegate.h */,
+				B36B29CC15D4DF4B006719DC /* SFAppDelegate.m */,
+				B36B29C315D4DF4B006719DC /* Supporting Files */,
+			);
+			path = SFAddressbookTutorial;
+			sourceTree = "<group>";
+		};
+		B36B29C315D4DF4B006719DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36B29C415D4DF4B006719DC /* SFAddressbookTutorial-Info.plist */,
+				B36B29C515D4DF4B006719DC /* InfoPlist.strings */,
+				B36B29C815D4DF4B006719DC /* main.m */,
+				B36B29CA15D4DF4B006719DC /* SFAddressbookTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B36B29DA15D4DF4B006719DC /* SFAddressbookTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36B29E015D4DF4B006719DC /* SFAddressbookTutorialTests.h */,
+				B36B29E115D4DF4B006719DC /* SFAddressbookTutorialTests.m */,
+				B36B29DB15D4DF4B006719DC /* Supporting Files */,
+			);
+			path = SFAddressbookTutorialTests;
+			sourceTree = "<group>";
+		};
+		B36B29DB15D4DF4B006719DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36B29DC15D4DF4B006719DC /* SFAddressbookTutorialTests-Info.plist */,
+				B36B29DD15D4DF4B006719DC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36B29B715D4DF4B006719DC /* SFAddressbookTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36B29E515D4DF4B006719DC /* Build configuration list for PBXNativeTarget "SFAddressbookTutorial" */;
+			buildPhases = (
+				B36B29B415D4DF4B006719DC /* Sources */,
+				B36B29B515D4DF4B006719DC /* Frameworks */,
+				B36B29B615D4DF4B006719DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFAddressbookTutorial;
+			productName = SFAddressbookTutorial;
+			productReference = B36B29B815D4DF4B006719DC /* SFAddressbookTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36B29D215D4DF4B006719DC /* SFAddressbookTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36B29E815D4DF4B006719DC /* Build configuration list for PBXNativeTarget "SFAddressbookTutorialTests" */;
+			buildPhases = (
+				B36B29CE15D4DF4B006719DC /* Sources */,
+				B36B29CF15D4DF4B006719DC /* Frameworks */,
+				B36B29D015D4DF4B006719DC /* Resources */,
+				B36B29D115D4DF4B006719DC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36B29D915D4DF4B006719DC /* PBXTargetDependency */,
+			);
+			name = SFAddressbookTutorialTests;
+			productName = SFAddressbookTutorialTests;
+			productReference = B36B29D315D4DF4B006719DC /* SFAddressbookTutorialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36B29AF15D4DF4B006719DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = saltfactory.net;
+			};
+			buildConfigurationList = B36B29B215D4DF4B006719DC /* Build configuration list for PBXProject "SFAddressbookTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B36B29AD15D4DF4B006719DC;
+			productRefGroup = B36B29B915D4DF4B006719DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36B29B715D4DF4B006719DC /* SFAddressbookTutorial */,
+				B36B29D215D4DF4B006719DC /* SFAddressbookTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36B29B615D4DF4B006719DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B29C715D4DF4B006719DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36B29D015D4DF4B006719DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B29DF15D4DF4B006719DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B36B29D115D4DF4B006719DC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36B29B415D4DF4B006719DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B29C915D4DF4B006719DC /* main.m in Sources */,
+				B36B29CD15D4DF4B006719DC /* SFAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36B29CE15D4DF4B006719DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B29E215D4DF4B006719DC /* SFAddressbookTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36B29D915D4DF4B006719DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36B29B715D4DF4B006719DC /* SFAddressbookTutorial */;
+			targetProxy = B36B29D815D4DF4B006719DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36B29C515D4DF4B006719DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36B29C615D4DF4B006719DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B36B29DD15D4DF4B006719DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36B29DE15D4DF4B006719DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36B29E315D4DF4B006719DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B36B29E415D4DF4B006719DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36B29E615D4DF4B006719DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFAddressbookTutorial/SFAddressbookTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFAddressbookTutorial/SFAddressbookTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B36B29E715D4DF4B006719DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFAddressbookTutorial/SFAddressbookTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFAddressbookTutorial/SFAddressbookTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B36B29E915D4DF4B006719DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SFAddressbookTutorial.app/SFAddressbookTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFAddressbookTutorial/SFAddressbookTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFAddressbookTutorialTests/SFAddressbookTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B36B29EA15D4DF4B006719DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SFAddressbookTutorial.app/SFAddressbookTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFAddressbookTutorial/SFAddressbookTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFAddressbookTutorialTests/SFAddressbookTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36B29B215D4DF4B006719DC /* Build configuration list for PBXProject "SFAddressbookTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36B29E315D4DF4B006719DC /* Debug */,
+				B36B29E415D4DF4B006719DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36B29E515D4DF4B006719DC /* Build configuration list for PBXNativeTarget "SFAddressbookTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36B29E615D4DF4B006719DC /* Debug */,
+				B36B29E715D4DF4B006719DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B36B29E815D4DF4B006719DC /* Build configuration list for PBXNativeTarget "SFAddressbookTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36B29E915D4DF4B006719DC /* Debug */,
+				B36B29EA15D4DF4B006719DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36B29AF15D4DF4B006719DC /* Project object */;
+}

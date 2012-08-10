@@ -1,0 +1,275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36B299415D4C912006719DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B299315D4C912006719DC /* UIKit.framework */; };
+		B36B299615D4C912006719DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B299515D4C912006719DC /* Foundation.framework */; };
+		B36B299815D4C912006719DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B299715D4C912006719DC /* CoreGraphics.framework */; };
+		B36B299E15D4C912006719DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B36B299C15D4C912006719DC /* InfoPlist.strings */; };
+		B36B29A015D4C912006719DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B299F15D4C912006719DC /* main.m */; };
+		B36B29A415D4C912006719DC /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B29A315D4C912006719DC /* SFAppDelegate.m */; };
+		B36B29AC15D4C985006719DC /* SFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B36B29AB15D4C985006719DC /* SFTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B36B298F15D4C912006719DC /* SFTableViewCellTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFTableViewCellTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36B299315D4C912006719DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B36B299515D4C912006719DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B36B299715D4C912006719DC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B36B299B15D4C912006719DC /* SFTableViewCellTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFTableViewCellTutorial-Info.plist"; sourceTree = "<group>"; };
+		B36B299D15D4C912006719DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B36B299F15D4C912006719DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B36B29A115D4C912006719DC /* SFTableViewCellTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFTableViewCellTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		B36B29A215D4C912006719DC /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		B36B29A315D4C912006719DC /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		B36B29AA15D4C985006719DC /* SFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SFTableViewController.h; path = "../../../Sources/t4-uitableviewcell/SFTableViewController.h"; sourceTree = "<group>"; };
+		B36B29AB15D4C985006719DC /* SFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SFTableViewController.m; path = "../../../Sources/t4-uitableviewcell/SFTableViewController.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36B298C15D4C912006719DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B299415D4C912006719DC /* UIKit.framework in Frameworks */,
+				B36B299615D4C912006719DC /* Foundation.framework in Frameworks */,
+				B36B299815D4C912006719DC /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36B298415D4C912006719DC = {
+			isa = PBXGroup;
+			children = (
+				B36B299915D4C912006719DC /* SFTableViewCellTutorial */,
+				B36B299215D4C912006719DC /* Frameworks */,
+				B36B299015D4C912006719DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36B299015D4C912006719DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36B298F15D4C912006719DC /* SFTableViewCellTutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36B299215D4C912006719DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B36B299315D4C912006719DC /* UIKit.framework */,
+				B36B299515D4C912006719DC /* Foundation.framework */,
+				B36B299715D4C912006719DC /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B36B299915D4C912006719DC /* SFTableViewCellTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				B36B29AA15D4C985006719DC /* SFTableViewController.h */,
+				B36B29AB15D4C985006719DC /* SFTableViewController.m */,
+				B36B29A215D4C912006719DC /* SFAppDelegate.h */,
+				B36B29A315D4C912006719DC /* SFAppDelegate.m */,
+				B36B299A15D4C912006719DC /* Supporting Files */,
+			);
+			path = SFTableViewCellTutorial;
+			sourceTree = "<group>";
+		};
+		B36B299A15D4C912006719DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36B299B15D4C912006719DC /* SFTableViewCellTutorial-Info.plist */,
+				B36B299C15D4C912006719DC /* InfoPlist.strings */,
+				B36B299F15D4C912006719DC /* main.m */,
+				B36B29A115D4C912006719DC /* SFTableViewCellTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36B298E15D4C912006719DC /* SFTableViewCellTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36B29A715D4C912006719DC /* Build configuration list for PBXNativeTarget "SFTableViewCellTutorial" */;
+			buildPhases = (
+				B36B298B15D4C912006719DC /* Sources */,
+				B36B298C15D4C912006719DC /* Frameworks */,
+				B36B298D15D4C912006719DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFTableViewCellTutorial;
+			productName = SFTableViewCellTutorial;
+			productReference = B36B298F15D4C912006719DC /* SFTableViewCellTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36B298615D4C912006719DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = saltfactory.net;
+			};
+			buildConfigurationList = B36B298915D4C912006719DC /* Build configuration list for PBXProject "SFTableViewCellTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B36B298415D4C912006719DC;
+			productRefGroup = B36B299015D4C912006719DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36B298E15D4C912006719DC /* SFTableViewCellTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36B298D15D4C912006719DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B299E15D4C912006719DC /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36B298B15D4C912006719DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36B29A015D4C912006719DC /* main.m in Sources */,
+				B36B29A415D4C912006719DC /* SFAppDelegate.m in Sources */,
+				B36B29AC15D4C985006719DC /* SFTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B36B299C15D4C912006719DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36B299D15D4C912006719DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36B29A515D4C912006719DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B36B29A615D4C912006719DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36B29A815D4C912006719DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFTableViewCellTutorial/SFTableViewCellTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFTableViewCellTutorial/SFTableViewCellTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B36B29A915D4C912006719DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFTableViewCellTutorial/SFTableViewCellTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFTableViewCellTutorial/SFTableViewCellTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36B298915D4C912006719DC /* Build configuration list for PBXProject "SFTableViewCellTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36B29A515D4C912006719DC /* Debug */,
+				B36B29A615D4C912006719DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36B29A715D4C912006719DC /* Build configuration list for PBXNativeTarget "SFTableViewCellTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36B29A815D4C912006719DC /* Debug */,
+				B36B29A915D4C912006719DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36B298615D4C912006719DC /* Project object */;
+}

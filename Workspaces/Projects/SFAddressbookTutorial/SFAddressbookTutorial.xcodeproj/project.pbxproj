@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B352FFB515D895EB00EAFC42 /* SFGroupsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B352FFB415D895EB00EAFC42 /* SFGroupsTableViewController.m */; };
+		B352FFB915D89A7A00EAFC42 /* SFGroupService.m in Sources */ = {isa = PBXBuildFile; fileRef = B352FFB815D89A7A00EAFC42 /* SFGroupService.m */; };
+		B352FFBA15D8A10500EAFC42 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29EB15D4E046006719DC /* AddressBook.framework */; };
+		B352FFBB15D8A10500EAFC42 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29EC15D4E046006719DC /* AddressBookUI.framework */; };
+		B352FFBE15D8BBE300EAFC42 /* SFGroupEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B352FFBD15D8BBE300EAFC42 /* SFGroupEditorViewController.m */; };
 		B36B29BD15D4DF4B006719DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29BC15D4DF4B006719DC /* UIKit.framework */; };
 		B36B29BF15D4DF4B006719DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29BE15D4DF4B006719DC /* Foundation.framework */; };
 		B36B29C115D4DF4B006719DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29C015D4DF4B006719DC /* CoreGraphics.framework */; };
@@ -33,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B352FFB315D895EB00EAFC42 /* SFGroupsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGroupsTableViewController.h; sourceTree = "<group>"; };
+		B352FFB415D895EB00EAFC42 /* SFGroupsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGroupsTableViewController.m; sourceTree = "<group>"; };
+		B352FFB715D89A7A00EAFC42 /* SFGroupService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGroupService.h; sourceTree = "<group>"; };
+		B352FFB815D89A7A00EAFC42 /* SFGroupService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGroupService.m; sourceTree = "<group>"; };
+		B352FFBC15D8BBE300EAFC42 /* SFGroupEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGroupEditorViewController.h; sourceTree = "<group>"; };
+		B352FFBD15D8BBE300EAFC42 /* SFGroupEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGroupEditorViewController.m; sourceTree = "<group>"; };
 		B36B29B815D4DF4B006719DC /* SFAddressbookTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFAddressbookTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36B29BC15D4DF4B006719DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B36B29BE15D4DF4B006719DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +69,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B352FFBA15D8A10500EAFC42 /* AddressBook.framework in Frameworks */,
+				B352FFBB15D8A10500EAFC42 /* AddressBookUI.framework in Frameworks */,
 				B36B29BD15D4DF4B006719DC /* UIKit.framework in Frameworks */,
 				B36B29BF15D4DF4B006719DC /* Foundation.framework in Frameworks */,
 				B36B29C115D4DF4B006719DC /* CoreGraphics.framework in Frameworks */,
@@ -116,6 +129,12 @@
 			children = (
 				B36B29CB15D4DF4B006719DC /* SFAppDelegate.h */,
 				B36B29CC15D4DF4B006719DC /* SFAppDelegate.m */,
+				B352FFB315D895EB00EAFC42 /* SFGroupsTableViewController.h */,
+				B352FFB415D895EB00EAFC42 /* SFGroupsTableViewController.m */,
+				B352FFBC15D8BBE300EAFC42 /* SFGroupEditorViewController.h */,
+				B352FFBD15D8BBE300EAFC42 /* SFGroupEditorViewController.m */,
+				B352FFB715D89A7A00EAFC42 /* SFGroupService.h */,
+				B352FFB815D89A7A00EAFC42 /* SFGroupService.m */,
 				B36B29C315D4DF4B006719DC /* Supporting Files */,
 			);
 			path = SFAddressbookTutorial;
@@ -260,6 +279,9 @@
 			files = (
 				B36B29C915D4DF4B006719DC /* main.m in Sources */,
 				B36B29CD15D4DF4B006719DC /* SFAppDelegate.m in Sources */,
+				B352FFB515D895EB00EAFC42 /* SFGroupsTableViewController.m in Sources */,
+				B352FFB915D89A7A00EAFC42 /* SFGroupService.m in Sources */,
+				B352FFBE15D8BBE300EAFC42 /* SFGroupEditorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +447,7 @@
 				B36B29E715D4DF4B006719DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B36B29E815D4DF4B006719DC /* Build configuration list for PBXNativeTarget "SFAddressbookTutorialTests" */ = {
 			isa = XCConfigurationList;
@@ -433,6 +456,7 @@
 				B36B29EA15D4DF4B006719DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

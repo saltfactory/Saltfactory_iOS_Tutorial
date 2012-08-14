@@ -131,5 +131,75 @@
     CFRelease(addressBookRef);
 }
 
+- (void)testFindAllContacts
+{
+    ABAddressBookRef addressBookRef = ABAddressBookCreate();
+    CFArrayRef peopleRef = ABAddressBookCopyArrayOfAllPeople(addressBookRef);
+    
+    
+    if (peopleRef != NULL) {
+        for (int i= 0; i < CFArrayGetCount(peopleRef); i++) {
+            
+            ABRecordRef personRef = CFArrayGetValueAtIndex(peopleRef, i);
+            
+            NSInteger personId = ABRecordGetRecordID(personRef);
+            
+            STAssertTrue(personId != 0, @"person not exist");
+                
+            CFStringRef lastNameRef = ABRecordCopyValue(personRef, kABPersonLastNameProperty);
+            if (lastNameRef != NULL) {
+//                [personInfo setValue:(__bridge NSString *) lastName forKey:@"lastName"];
+                NSLog(@"kABPersonLastNameProperty : %@", lastNameRef);
+                CFRelease(lastNameRef);
+            }
+            
+            CFStringRef firstNameRef = ABRecordCopyValue(personRef, kABPersonFirstNameProperty);
+            if (firstNameRef != NULL) {
+//                [personInfo setValue:(__bridge NSString *) firstNameRef forKey:@"firstName"];
+                NSLog(@"kABPersonFirstNameProperty :%@", firstNameRef);
+                CFRelease(firstNameRef);
+            }
+            
+            CFStringRef middleNameRef = ABRecordCopyValue(personRef, kABPersonMiddleNameProperty);
+            if (middleNameRef != NULL) {
+                NSLog(@"kABPersonMiddleNameProperty : %@", middleNameRef);
+                CFRelease(middleNameRef);
+            }
+            
+            CFStringRef prefixRef = ABRecordCopyValue(personRef, kABPersonPrefixProperty);
+            if (prefixRef != NULL) {
+                NSLog(@"kABPersonPrefixProperty : %@", prefixRef);
+                CFRelease(prefixRef);
+            }
+        
+            
+            
+//            CFStringRef organizationRef = ABRecordCopyValue(personRef, kABPersonOrganizationProperty);
+//            if (organizationRef != NULL) {
+//                [personInfo setValue:(__bridge NSString *)organizationRef forKey:@"organization"];
+//                CFRelease(organizationRef);
+//            }
+//            
+//            CFStringRef departmentRef = ABRecordCopyValue(personRef, kABPersonDepartmentProperty);
+//            if (departmentRef != NULL) {
+//                [personInfo setValue:(__bridge NSString *)departmentRef forKey:@"department"];
+//                CFRelease(departmentRef);
+//            }
+//            
+//            CFStringRef jobTitleRef = ABRecordCopyValue(personRef, kABPersonJobTitleProperty);
+//            if (jobTitleRef != NULL) {
+//                [personInfo setValue:(__bridge NSString *)jobTitleRef forKey:@"jobTitle"];
+//                CFRelease(jobTitleRef);
+//            }
+            
+        }
+        CFRelease(peopleRef);
+    };
+    
+    CFRelease(addressBookRef);
+    
+
+}
+
 
 @end

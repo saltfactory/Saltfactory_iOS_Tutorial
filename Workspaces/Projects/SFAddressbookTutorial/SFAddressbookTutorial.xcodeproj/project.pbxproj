@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B337F26B15DA457100056030 /* SFContactsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B337F26A15DA457100056030 /* SFContactsTableViewController.m */; };
 		B352FFB515D895EB00EAFC42 /* SFGroupsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B352FFB415D895EB00EAFC42 /* SFGroupsTableViewController.m */; };
 		B352FFB915D89A7A00EAFC42 /* SFGroupService.m in Sources */ = {isa = PBXBuildFile; fileRef = B352FFB815D89A7A00EAFC42 /* SFGroupService.m */; };
 		B352FFBA15D8A10500EAFC42 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29EB15D4E046006719DC /* AddressBook.framework */; };
 		B352FFBB15D8A10500EAFC42 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29EC15D4E046006719DC /* AddressBookUI.framework */; };
 		B352FFBE15D8BBE300EAFC42 /* SFGroupEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B352FFBD15D8BBE300EAFC42 /* SFGroupEditorViewController.m */; };
+		B352FFCA15D8EBB900EAFC42 /* SFContactService.m in Sources */ = {isa = PBXBuildFile; fileRef = B352FFC915D8EBB900EAFC42 /* SFContactService.m */; };
 		B36B29BD15D4DF4B006719DC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29BC15D4DF4B006719DC /* UIKit.framework */; };
 		B36B29BF15D4DF4B006719DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29BE15D4DF4B006719DC /* Foundation.framework */; };
 		B36B29C115D4DF4B006719DC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B36B29C015D4DF4B006719DC /* CoreGraphics.framework */; };
@@ -38,12 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B337F26915DA457100056030 /* SFContactsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFContactsTableViewController.h; sourceTree = "<group>"; };
+		B337F26A15DA457100056030 /* SFContactsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFContactsTableViewController.m; sourceTree = "<group>"; };
 		B352FFB315D895EB00EAFC42 /* SFGroupsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGroupsTableViewController.h; sourceTree = "<group>"; };
 		B352FFB415D895EB00EAFC42 /* SFGroupsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGroupsTableViewController.m; sourceTree = "<group>"; };
 		B352FFB715D89A7A00EAFC42 /* SFGroupService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGroupService.h; sourceTree = "<group>"; };
 		B352FFB815D89A7A00EAFC42 /* SFGroupService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGroupService.m; sourceTree = "<group>"; };
 		B352FFBC15D8BBE300EAFC42 /* SFGroupEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFGroupEditorViewController.h; sourceTree = "<group>"; };
 		B352FFBD15D8BBE300EAFC42 /* SFGroupEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFGroupEditorViewController.m; sourceTree = "<group>"; };
+		B352FFC815D8EBB900EAFC42 /* SFContactService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFContactService.h; sourceTree = "<group>"; };
+		B352FFC915D8EBB900EAFC42 /* SFContactService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFContactService.m; sourceTree = "<group>"; };
 		B36B29B815D4DF4B006719DC /* SFAddressbookTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFAddressbookTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B36B29BC15D4DF4B006719DC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B36B29BE15D4DF4B006719DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +98,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B352FFC315D8E62F00EAFC42 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				B352FFB315D895EB00EAFC42 /* SFGroupsTableViewController.h */,
+				B352FFB415D895EB00EAFC42 /* SFGroupsTableViewController.m */,
+				B352FFBC15D8BBE300EAFC42 /* SFGroupEditorViewController.h */,
+				B352FFBD15D8BBE300EAFC42 /* SFGroupEditorViewController.m */,
+				B352FFB715D89A7A00EAFC42 /* SFGroupService.h */,
+				B352FFB815D89A7A00EAFC42 /* SFGroupService.m */,
+			);
+			name = Groups;
+			sourceTree = "<group>";
+		};
+		B352FFC415D8E98100EAFC42 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				B352FFC815D8EBB900EAFC42 /* SFContactService.h */,
+				B352FFC915D8EBB900EAFC42 /* SFContactService.m */,
+				B337F26915DA457100056030 /* SFContactsTableViewController.h */,
+				B337F26A15DA457100056030 /* SFContactsTableViewController.m */,
+			);
+			name = Contacts;
+			sourceTree = "<group>";
+		};
 		B36B29AD15D4DF4B006719DC = {
 			isa = PBXGroup;
 			children = (
@@ -127,14 +157,10 @@
 		B36B29C215D4DF4B006719DC /* SFAddressbookTutorial */ = {
 			isa = PBXGroup;
 			children = (
+				B352FFC415D8E98100EAFC42 /* Contacts */,
+				B352FFC315D8E62F00EAFC42 /* Groups */,
 				B36B29CB15D4DF4B006719DC /* SFAppDelegate.h */,
 				B36B29CC15D4DF4B006719DC /* SFAppDelegate.m */,
-				B352FFB315D895EB00EAFC42 /* SFGroupsTableViewController.h */,
-				B352FFB415D895EB00EAFC42 /* SFGroupsTableViewController.m */,
-				B352FFBC15D8BBE300EAFC42 /* SFGroupEditorViewController.h */,
-				B352FFBD15D8BBE300EAFC42 /* SFGroupEditorViewController.m */,
-				B352FFB715D89A7A00EAFC42 /* SFGroupService.h */,
-				B352FFB815D89A7A00EAFC42 /* SFGroupService.m */,
 				B36B29C315D4DF4B006719DC /* Supporting Files */,
 			);
 			path = SFAddressbookTutorial;
@@ -282,6 +308,8 @@
 				B352FFB515D895EB00EAFC42 /* SFGroupsTableViewController.m in Sources */,
 				B352FFB915D89A7A00EAFC42 /* SFGroupService.m in Sources */,
 				B352FFBE15D8BBE300EAFC42 /* SFGroupEditorViewController.m in Sources */,
+				B352FFCA15D8EBB900EAFC42 /* SFContactService.m in Sources */,
+				B337F26B15DA457100056030 /* SFContactsTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "SFGroupsTableViewController.h"
 #import "SFGroupEditorViewController.h"
+#import "SFContactsTableViewController.h"
 
 @interface SFGroupsTableViewController ()
 {
@@ -154,6 +155,7 @@
     // Configure the cell...
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:CellIdentifier];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     cell.textLabel.text = [[items objectAtIndex:indexPath.row] valueForKey:@"name"];
     return cell;
@@ -220,13 +222,17 @@
      [self.navigationController pushViewController:detailViewController animated:YES];
      */
     
+    NSDictionary *groupInfo = [items objectAtIndex:indexPath.row];
+
     if (tableView.editing) {
-        NSDictionary *groupInfo = [items objectAtIndex:indexPath.row];
         
         SFGroupEditorViewController *groupEditorViewController = [[SFGroupEditorViewController alloc] initWithGroupInfo:groupInfo];
         UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:groupEditorViewController];
         [self presentModalViewController:navigationController animated:YES];
 
+    } else {
+        SFContactsTableViewController *contactsTableViewController = [[SFContactsTableViewController alloc] initWithGroupInfo:groupInfo];
+        [self.navigationController pushViewController:contactsTableViewController animated:YES];
     }
 }
 

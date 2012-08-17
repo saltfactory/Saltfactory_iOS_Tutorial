@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B364A23E15DE1FC7005618BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B364A23D15DE1FC7005618BF /* UIKit.framework */; };
+		B364A24015DE1FC7005618BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B364A23F15DE1FC7005618BF /* Foundation.framework */; };
+		B364A24215DE1FC7005618BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B364A24115DE1FC7005618BF /* CoreGraphics.framework */; };
+		B364A24415DE1FC7005618BF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B364A24315DE1FC7005618BF /* CoreData.framework */; };
+		B364A24A15DE1FC7005618BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B364A24815DE1FC7005618BF /* InfoPlist.strings */; };
+		B364A24C15DE1FC7005618BF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B364A24B15DE1FC7005618BF /* main.m */; };
+		B364A25015DE1FC7005618BF /* SFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B364A24F15DE1FC7005618BF /* SFAppDelegate.m */; };
+		B364A25315DE1FC7005618BF /* SFFileSharingTutorial.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B364A25115DE1FC7005618BF /* SFFileSharingTutorial.xcdatamodeld */; };
+		B364A25B15DE1FC8005618BF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B364A25A15DE1FC8005618BF /* SenTestingKit.framework */; };
+		B364A25C15DE1FC8005618BF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B364A23D15DE1FC7005618BF /* UIKit.framework */; };
+		B364A25D15DE1FC8005618BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B364A23F15DE1FC7005618BF /* Foundation.framework */; };
+		B364A25E15DE1FC8005618BF /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B364A24315DE1FC7005618BF /* CoreData.framework */; };
+		B364A26615DE1FC8005618BF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B364A26415DE1FC8005618BF /* InfoPlist.strings */; };
+		B364A26915DE1FC8005618BF /* SFFileSharingTutorialTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B364A26815DE1FC8005618BF /* SFFileSharingTutorialTests.m */; };
+		B364A27415DE1FF5005618BF /* SFFilesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B364A27315DE1FF5005618BF /* SFFilesTableViewController.m */; };
+		B364A27615DE292D005618BF /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B364A27515DE292D005618BF /* test.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B364A25F15DE1FC8005618BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B364A23015DE1FC7005618BF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B364A23815DE1FC7005618BF;
+			remoteInfo = SFFileSharingTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B364A23915DE1FC7005618BF /* SFFileSharingTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFFileSharingTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B364A23D15DE1FC7005618BF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B364A23F15DE1FC7005618BF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B364A24115DE1FC7005618BF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B364A24315DE1FC7005618BF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		B364A24715DE1FC7005618BF /* SFFileSharingTutorial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFFileSharingTutorial-Info.plist"; sourceTree = "<group>"; };
+		B364A24915DE1FC7005618BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B364A24B15DE1FC7005618BF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B364A24D15DE1FC7005618BF /* SFFileSharingTutorial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SFFileSharingTutorial-Prefix.pch"; sourceTree = "<group>"; };
+		B364A24E15DE1FC7005618BF /* SFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFAppDelegate.h; sourceTree = "<group>"; };
+		B364A24F15DE1FC7005618BF /* SFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFAppDelegate.m; sourceTree = "<group>"; };
+		B364A25215DE1FC7005618BF /* SFFileSharingTutorial.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SFFileSharingTutorial.xcdatamodel; sourceTree = "<group>"; };
+		B364A25915DE1FC8005618BF /* SFFileSharingTutorialTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SFFileSharingTutorialTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B364A25A15DE1FC8005618BF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		B364A26315DE1FC8005618BF /* SFFileSharingTutorialTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SFFileSharingTutorialTests-Info.plist"; sourceTree = "<group>"; };
+		B364A26515DE1FC8005618BF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B364A26715DE1FC8005618BF /* SFFileSharingTutorialTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFFileSharingTutorialTests.h; sourceTree = "<group>"; };
+		B364A26815DE1FC8005618BF /* SFFileSharingTutorialTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFFileSharingTutorialTests.m; sourceTree = "<group>"; };
+		B364A27215DE1FF5005618BF /* SFFilesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFFilesTableViewController.h; sourceTree = "<group>"; };
+		B364A27315DE1FF5005618BF /* SFFilesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFFilesTableViewController.m; sourceTree = "<group>"; };
+		B364A27515DE292D005618BF /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B364A23615DE1FC7005618BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B364A23E15DE1FC7005618BF /* UIKit.framework in Frameworks */,
+				B364A24015DE1FC7005618BF /* Foundation.framework in Frameworks */,
+				B364A24215DE1FC7005618BF /* CoreGraphics.framework in Frameworks */,
+				B364A24415DE1FC7005618BF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B364A25515DE1FC8005618BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B364A25B15DE1FC8005618BF /* SenTestingKit.framework in Frameworks */,
+				B364A25C15DE1FC8005618BF /* UIKit.framework in Frameworks */,
+				B364A25D15DE1FC8005618BF /* Foundation.framework in Frameworks */,
+				B364A25E15DE1FC8005618BF /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B364A22E15DE1FC7005618BF = {
+			isa = PBXGroup;
+			children = (
+				B364A27515DE292D005618BF /* test.jpg */,
+				B364A24515DE1FC7005618BF /* SFFileSharingTutorial */,
+				B364A26115DE1FC8005618BF /* SFFileSharingTutorialTests */,
+				B364A23C15DE1FC7005618BF /* Frameworks */,
+				B364A23A15DE1FC7005618BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B364A23A15DE1FC7005618BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B364A23915DE1FC7005618BF /* SFFileSharingTutorial.app */,
+				B364A25915DE1FC8005618BF /* SFFileSharingTutorialTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B364A23C15DE1FC7005618BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B364A23D15DE1FC7005618BF /* UIKit.framework */,
+				B364A23F15DE1FC7005618BF /* Foundation.framework */,
+				B364A24115DE1FC7005618BF /* CoreGraphics.framework */,
+				B364A24315DE1FC7005618BF /* CoreData.framework */,
+				B364A25A15DE1FC8005618BF /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B364A24515DE1FC7005618BF /* SFFileSharingTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				B364A24E15DE1FC7005618BF /* SFAppDelegate.h */,
+				B364A24F15DE1FC7005618BF /* SFAppDelegate.m */,
+				B364A25115DE1FC7005618BF /* SFFileSharingTutorial.xcdatamodeld */,
+				B364A24615DE1FC7005618BF /* Supporting Files */,
+				B364A27215DE1FF5005618BF /* SFFilesTableViewController.h */,
+				B364A27315DE1FF5005618BF /* SFFilesTableViewController.m */,
+			);
+			path = SFFileSharingTutorial;
+			sourceTree = "<group>";
+		};
+		B364A24615DE1FC7005618BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B364A24715DE1FC7005618BF /* SFFileSharingTutorial-Info.plist */,
+				B364A24815DE1FC7005618BF /* InfoPlist.strings */,
+				B364A24B15DE1FC7005618BF /* main.m */,
+				B364A24D15DE1FC7005618BF /* SFFileSharingTutorial-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B364A26115DE1FC8005618BF /* SFFileSharingTutorialTests */ = {
+			isa = PBXGroup;
+			children = (
+				B364A26715DE1FC8005618BF /* SFFileSharingTutorialTests.h */,
+				B364A26815DE1FC8005618BF /* SFFileSharingTutorialTests.m */,
+				B364A26215DE1FC8005618BF /* Supporting Files */,
+			);
+			path = SFFileSharingTutorialTests;
+			sourceTree = "<group>";
+		};
+		B364A26215DE1FC8005618BF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B364A26315DE1FC8005618BF /* SFFileSharingTutorialTests-Info.plist */,
+				B364A26415DE1FC8005618BF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B364A23815DE1FC7005618BF /* SFFileSharingTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B364A26C15DE1FC8005618BF /* Build configuration list for PBXNativeTarget "SFFileSharingTutorial" */;
+			buildPhases = (
+				B364A23515DE1FC7005618BF /* Sources */,
+				B364A23615DE1FC7005618BF /* Frameworks */,
+				B364A23715DE1FC7005618BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SFFileSharingTutorial;
+			productName = SFFileSharingTutorial;
+			productReference = B364A23915DE1FC7005618BF /* SFFileSharingTutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B364A25815DE1FC8005618BF /* SFFileSharingTutorialTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B364A26F15DE1FC8005618BF /* Build configuration list for PBXNativeTarget "SFFileSharingTutorialTests" */;
+			buildPhases = (
+				B364A25415DE1FC8005618BF /* Sources */,
+				B364A25515DE1FC8005618BF /* Frameworks */,
+				B364A25615DE1FC8005618BF /* Resources */,
+				B364A25715DE1FC8005618BF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B364A26015DE1FC8005618BF /* PBXTargetDependency */,
+			);
+			name = SFFileSharingTutorialTests;
+			productName = SFFileSharingTutorialTests;
+			productReference = B364A25915DE1FC8005618BF /* SFFileSharingTutorialTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B364A23015DE1FC7005618BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SF;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = saltfactory.net;
+			};
+			buildConfigurationList = B364A23315DE1FC7005618BF /* Build configuration list for PBXProject "SFFileSharingTutorial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B364A22E15DE1FC7005618BF;
+			productRefGroup = B364A23A15DE1FC7005618BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B364A23815DE1FC7005618BF /* SFFileSharingTutorial */,
+				B364A25815DE1FC8005618BF /* SFFileSharingTutorialTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B364A23715DE1FC7005618BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B364A24A15DE1FC7005618BF /* InfoPlist.strings in Resources */,
+				B364A27615DE292D005618BF /* test.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B364A25615DE1FC8005618BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B364A26615DE1FC8005618BF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B364A25715DE1FC8005618BF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B364A23515DE1FC7005618BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B364A24C15DE1FC7005618BF /* main.m in Sources */,
+				B364A25015DE1FC7005618BF /* SFAppDelegate.m in Sources */,
+				B364A25315DE1FC7005618BF /* SFFileSharingTutorial.xcdatamodeld in Sources */,
+				B364A27415DE1FF5005618BF /* SFFilesTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B364A25415DE1FC8005618BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B364A26915DE1FC8005618BF /* SFFileSharingTutorialTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B364A26015DE1FC8005618BF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B364A23815DE1FC7005618BF /* SFFileSharingTutorial */;
+			targetProxy = B364A25F15DE1FC8005618BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B364A24815DE1FC7005618BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B364A24915DE1FC7005618BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B364A26415DE1FC8005618BF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B364A26515DE1FC8005618BF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B364A26A15DE1FC8005618BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B364A26B15DE1FC8005618BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B364A26D15DE1FC8005618BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFFileSharingTutorial/SFFileSharingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFFileSharingTutorial/SFFileSharingTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B364A26E15DE1FC8005618BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFFileSharingTutorial/SFFileSharingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFFileSharingTutorial/SFFileSharingTutorial-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B364A27015DE1FC8005618BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SFFileSharingTutorial.app/SFFileSharingTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFFileSharingTutorial/SFFileSharingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFFileSharingTutorialTests/SFFileSharingTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		B364A27115DE1FC8005618BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SFFileSharingTutorial.app/SFFileSharingTutorial";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SFFileSharingTutorial/SFFileSharingTutorial-Prefix.pch";
+				INFOPLIST_FILE = "SFFileSharingTutorialTests/SFFileSharingTutorialTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B364A23315DE1FC7005618BF /* Build configuration list for PBXProject "SFFileSharingTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B364A26A15DE1FC8005618BF /* Debug */,
+				B364A26B15DE1FC8005618BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B364A26C15DE1FC8005618BF /* Build configuration list for PBXNativeTarget "SFFileSharingTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B364A26D15DE1FC8005618BF /* Debug */,
+				B364A26E15DE1FC8005618BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B364A26F15DE1FC8005618BF /* Build configuration list for PBXNativeTarget "SFFileSharingTutorialTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B364A27015DE1FC8005618BF /* Debug */,
+				B364A27115DE1FC8005618BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B364A25115DE1FC7005618BF /* SFFileSharingTutorial.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B364A25215DE1FC7005618BF /* SFFileSharingTutorial.xcdatamodel */,
+			);
+			currentVersion = B364A25215DE1FC7005618BF /* SFFileSharingTutorial.xcdatamodel */;
+			path = SFFileSharingTutorial.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B364A23015DE1FC7005618BF /* Project object */;
+}
